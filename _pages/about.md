@@ -1,49 +1,68 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Ruyi Zhao’s Academic Page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+Welcome to My Academic Website!
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Hello! I’m Ruyi Zhao, a dedicated researcher with a passion for ultrafast optics, biomedical imaging, and optical engineering. This website serves as a platform to share my research journey, achievements, and academic contributions.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Education
+**Master of International Bioengineering**, The University of Tokyo (UTokyo), Japan  
+*Sep. 2023 – expected Jul. 2025*  
+- Core modules: Bioimaging, Advanced Biodevices, Advanced Biomaterials
+- Research areas: Cell-shockwave interaction, Ultrafast imaging, Imaging flow cytometry  
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**Bachelor of Opto-Electronics Information Science and Engineering**, Beijing Institute of Technology (BIT), China  
+*Sep. 2019 – Jul. 2023*  
+- GPA: 3.7/4; Graduation project rated as ‘Excellent’
+- Research areas: Hyperspectral compressive imaging, Deep learning  
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Research Experience
+**Postgraduate Project: Imaging Flow Cytometry for Ultrafast Acoustic Cellular Interaction**  
+*UTokyo, Sep. 2023 – Present*  
+- Proposed DIC-STAMP (Differential Interference Contrast-STAMP) to enhance shockwave edge detection for detailed wavefront analysis.
+- Developed a TSMD module for STAMP to enable independent control of pulse trains (intervals: 0.1ns to 3ns), improving signal-to-noise ratio (SNR).
+- Integrated STAMP with Nikon Ti2-U microscope, enabling co-axial laser-induced shockwave generation.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Undergraduate Project: Deep Learning-based Spectral Compressive Imaging**  
+*BIT, Sep. 2022 – Jun. 2023*  
+- Implemented a Transformer-based hyperspectral reconstruction algorithm to improve CASSI hyperspectral imaging.
+- Achieved an average SSIM of 92% and PSNR of 34.22 dB on the KAIST dataset.
 
-**Markdown generator**
+**Mitacs Globalink Research Internship: Compressed Optical-Streaking Ultra-high-speed Photography**  
+*INRS, Montreal, Aug. 2022 – Nov. 2022*  
+- Constructed a compact COSUP system for RGB, low-light, and miniaturized ultrafast imaging.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Other Experience
+**Bioengineering Summer Experiment**  
+*UTokyo, Sep. 2024 – Nov. 2024*  
+- Synthesized and PEG-modified MEH-PPV fluorescent polymer dots (Pdots) for cellular fluorescence imaging.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**Engineering Summer Education Program (ESEP-G) Research Mentor**  
+*UTokyo, Jun. 2024 – Aug. 2024*  
+- Mentored an Oxford undergraduate student on STAMP system principles and optical experiment techniques.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**Olympic Broadcasting Services Training Programme**  
+*Beijing Winter Olympics, Jan. 2022 – Feb. 2022*  
+- Served as a venue production assistant, coordinating with international photojournalists and translating for staff.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Selected Awards and Honors
+- University of Tokyo Fellowship (Top 2% of international postgraduates, 2023)
+- Mitacs Globalink Research Award, China Scholarship Council (2022)
+- First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (Award ratio: 5%)
+- Three-time recipient of BIT College Academic Scholarship (2020–2021)
+
+## Technical Skills
+- **Software:** SolidWorks, AutoCAD, ImageJ, Zemax, MATLAB, Python, PyTorch, Microsoft Office
+- **Languages:** Mandarin (Native), English (Fluent), Japanese (Basic)
+
+## Contact
+Feel free to reach out to me via email: [ruyi-zhao@g.ecc.u-tokyo.ac.jp](mailto:ruyi-zhao@g.ecc.u-tokyo.ac.jp) or connect with me on LinkedIn.
+
+Thank you for visiting my website!
+
