@@ -10,6 +10,7 @@ redirect_from:
 Welcome to My Academic Website!
 ======
 Hello! I’m Ruyi Zhao, a dedicated researcher with a passion for ultrafast optics, biomedical imaging, and optical engineering. This website serves as a platform to share my research journey, achievements, and academic contributions.
+![My Research Image](images/frontpage-image.png)
 
 ## Education
 **Master of International Bioengineering**, The University of Tokyo (UTokyo), Japan  
